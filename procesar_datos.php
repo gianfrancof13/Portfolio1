@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "post") {
     }
     
     // Procesa los datos (por ejemplo, enviar un correo electrónico)
-    $destinatario = "correo_destino@example.com";
+    $destinatario = "gianfrancoferrero.e@gmail.com";
     $asunto = "Nuevo mensaje de contacto desde el formulario";
     $cuerpo = "Nombre: $name\nCorreo: $email\nMensaje:\n$message";
     
